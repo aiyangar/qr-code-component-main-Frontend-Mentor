@@ -6,17 +6,15 @@ function App() {
 
   return (
     <>
-      <div className='mainContainer'>
-        <div className="cardContainer">
-          <div className='qrContainer'>
-            <img src={qrImage} alt="" />
-          </div>
-          <div className='titleContainer'>
-            <h3>Improve your front-end skills by building projects</h3>
-          </div>
-          <div className='descriptionContainer'>
-            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-          </div>
+      <div className="cardContainer">
+        <div className='qrContainer'>
+          <img src={qrImage} alt="" />
+        </div>
+        <div className='titleContainer'>
+          <h3>Improve your front-end skills by building projects</h3>
+        </div>
+        <div className='descriptionContainer'>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
         </div>
       </div>
       <div class="attribution">
